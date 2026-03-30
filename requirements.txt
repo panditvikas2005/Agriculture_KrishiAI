@@ -1,0 +1,44 @@
+# ── Core Framework ──
+fastapi==0.115.6
+uvicorn==0.34.0
+streamlit==1.41.1
+
+# ── AI / LangChain Stack ──
+langchain==0.3.14
+langchain-community==0.3.14
+langchain-core==0.3.30
+langchain-groq==0.2.3
+langchain-openai==0.3.0
+langchain-google-genai>=2.0.0
+langchain-text-splitters==0.3.5
+langgraph==0.2.64
+langgraph-checkpoint==2.0.10
+langgraph-sdk==0.1.51
+langsmith==0.2.11
+
+# ── LLM Providers ──
+groq==0.15.0
+openai==1.59.8
+google-generativeai>=0.8.0
+
+# ── Search Tool ──
+tavily-python>=0.5.0
+
+# ── Data & HTTP ──
+requests==2.32.3
+pydantic==2.10.5
+pydantic-settings==2.7.1
+python-dotenv==1.0.1
+httpx==0.28.1
+
+# ── MySQL driver & security ──
+pymysql==1.1.1
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# ── Utilities ──
+tenacity==9.0.0
+typing_extensions==4.12.2
+packaging==24.2
+anyio==4.8.0
+streamlit-mic-recorder>=0.0.4
